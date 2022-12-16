@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/GKalenchenko/goit-js-hw-11.git",
+  "homepage": "https://github.com/GKalenchenko/js-hw-11-with-pagi.git",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /js-hw-11-with-pagi/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GKalenchenko/goit-js-hw-11.git"
+    "url": "git+https://github.com/GKalenchenko/js-hw-11-with-pagi.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -20,7 +20,8 @@
   "dependencies": {
     "axios": "^1.2.1",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.5"
+    "notiflix": "^3.2.5",
+    "tui-pagination": "^3.4.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

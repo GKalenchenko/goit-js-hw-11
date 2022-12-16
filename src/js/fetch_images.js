@@ -17,7 +17,7 @@ export function fetchImages(request) {
   }
   return axios
     .get(
-      `${BASE_URL}&q=${request}&image_type=photo&orientation=horizontal&safesearch=true&page=${PAGE}&per_page=40`
+      `${BASE_URL}&q=${request}&image_type=photo&orientation=horizontal&safesearch=true&page=${PAGE}&per_page=4`
     )
     .then(function (response) {
       const totalHits = response.data.totalHits;
